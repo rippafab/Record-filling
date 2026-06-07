@@ -1,2 +1,7 @@
-# Record-filling
-Numerical codes used in the article “Recovering Missing Data with Record Analysis”, including scripts for simulations of the synthetic datasets and catalog reconstruction.
+# Recovering Missing Data with Record Analysis
+
+This repository contains the numerical codes used in the article *Recovering Missing Data with Record Analysis*.
+
+The folder constant_rate contains the script and the source codes used for the synthetic test with constant event rate and position-dependent detection threshold. These codes are used to generate the first figures of the article.
+
+The folder omori contains the script and the source codes used for the synthetic Omori case study. The codes generate the complete and incomplete catalogs, apply the record-based refilling procedure, and produce the files used to compare the complete, observed, and reconstructed catalogs.
